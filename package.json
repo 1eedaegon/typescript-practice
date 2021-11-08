@@ -1,0 +1,24 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1eedaegon/typescript-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1eedaegon/typescript-practice/issues"
+  },
+  "homepage": "https://github.com/1eedaegon/typescript-practice#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "tslint": "^6.1.3",
+    "typescript": "^4.4.4"
+  }
+}
