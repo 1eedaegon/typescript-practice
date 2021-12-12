@@ -1,7 +1,5 @@
-function squareOf(n) {
-    return n * n;
-}
-console.log(squareOf(2));
-console.log(squareOf `('hello'))
-);
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var makePerson_1 = require("./utils/makePerson");
+(0, makePerson_1.testMakePerson)();
 //# sourceMappingURL=index.js.map
