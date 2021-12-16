@@ -35,3 +35,15 @@ let samp1: {
     c?: number, // samp1 has property 'c' is type of number(Optional)
     [key: number]: boolean 
 }
+
+// Index signature
+// Object use strings as key
+let sampleAirplane: { [seatNumber: string]: string } = {
+    '34D': 'Lee daegon',
+    '12F': 'kildong hong'
+}
+
+let user: { readonly firstName: string } = {
+    firstName: 'hello'
+}
+user.firstName = 'hi'
